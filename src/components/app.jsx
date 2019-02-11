@@ -1,12 +1,16 @@
 import React from "react";
 import Header from "./Header";
-import TicketList from "./TicketList";
+import Main from "./Main";
 
 function App(){
   return (
     <div>
-      <Header/>
-      <TicketList />
+      <div>
+        <Header/>
+      </div>
+      <div>
+        <Main/>
+      </div>
     </div>
   );
 }
