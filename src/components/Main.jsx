@@ -1,13 +1,13 @@
 import React from "react";
-import Profile from "./Profile";
-import Feed from "./Feed";
-import ListFriends from "./ListFriends";
+import Profile from "./Profile/Profile";
+import Feed from "./Feed/Feed";
+import ListFriends from "./Friends/ListFriends";
 
 function Main(){
   const wrapper = {
     display: 'grid',
-    gridGap: '10px',
-    gridTemplateColumns: '350px 350px 350px',
+    gridGap: '2px',
+    gridTemplateColumns: '33% 33% 33%',
     justifyContent: "space-between",
     backgroundColor:' #fff',
     color: '#444',
@@ -23,18 +23,15 @@ function Main(){
   }
 
   const a = {
-    gridColumn: '1 ',
+    gridColumn: '1',
     gridRow: '1',
     margin: '20px',
-    padding: '40px',
-    border: "1px solid black"
   }
 
   const b = {
     gridColumn: '2',
     gridRow: '1',
     margin: '20px',
-    padding: '40px',
     border: "1px solid black"
   }
 
@@ -42,7 +39,6 @@ function Main(){
     gridColumn: '3',
     gridRow: '1',
     margin: '20px',
-    padding: '40px',
     border: "1px solid black"
   }
 
