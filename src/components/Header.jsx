@@ -14,9 +14,24 @@ function Header(props){
   }
 
   const headerStylesRight = {
-    backgroundColor: 'lightgreen',
-    float: 'right'
+    float: 'right',
+    borderRadius: '20px',
   }
+
+  const searchBar = {
+    borderRadius: '20px',
+    padding: '10px',
+    marginRight: '15px',
+    border: '1px solid #54aae3'
+  }
+
+  const tweetButton = {
+    borderRadius: '20px',
+    padding: '10px',
+    marginRight: '15px',
+    border: '1px solid #54aae3'
+  }
+
 
   return (
     <div>
@@ -25,8 +40,8 @@ function Header(props){
         <button style={navbuttons}>Notifications</button>
         <button style={navbuttons}>Messages</button>
           <div style={headerStylesRight}>
-            <input type="text" placeholder="Search.." name="search"/>
-            <button>Tweet</button>
+            <input style={searchBar} type="text" placeholder="Search.." name="search"/>
+            <button style={tweetButton}>Tweet</button>
           </div>
       </div>
       <hr/>

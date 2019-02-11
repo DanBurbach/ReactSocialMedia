@@ -5,10 +5,14 @@ function ProfileHead(){
   const ProfileHead = {
     backgroundColor: "#2c97de",
     height: '150px',
-    marginTop: '0px'
+    marginTop: '0px',
+  }
+
+  const MainProfile = {
+    boxShadow: '10px 10px 5px grey'
   }
   return (
-    <div>
+    <div style= {MainProfile}>
       <p style = {ProfileHead}>
       </p>
       <ProfileNav/>

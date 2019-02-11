@@ -6,6 +6,7 @@ function ProfileDesc(){
     paddingBottom: '10px',
     textAlign: 'left',
     padding: '30px',
+    boxShadow: '10px 10px 5px grey'
 
   }
 

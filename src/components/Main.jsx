@@ -32,14 +32,16 @@ function Main(){
     gridColumn: '2',
     gridRow: '1',
     margin: '20px',
-    border: "1px solid black"
+    border: "1px solid black",
+    boxShadow: '10px 10px 5px grey'
   }
 
   const c = {
     gridColumn: '3',
     gridRow: '1',
     margin: '20px',
-    border: "1px solid black"
+    border: "1px solid black",
+    boxShadow: '10px 10px 5px grey'
   }
 
 
