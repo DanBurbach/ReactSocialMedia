@@ -8,13 +8,15 @@ const profileImage = {
   height: '70px',
   width: '80px',
   borderRadius: '25%',
-  // float: 'left',
-  // marginRight: '8px'
 }
 
 const friendBox = {
   display: 'flex',
   marginTop: '30px'
+}
+
+const addFriendStyle = {
+  fontSize: '16px'
 }
 
 function ListFriends(props,index){
@@ -31,14 +33,14 @@ function ListFriends(props,index){
 const FriendList = (props) => {
   return (
     <div>
-      <p> something </p>
+      <p> Add Friends </p>
         {props.friends.map((friend, index) =>
           <div style={friendBox}>
             <p>{friend.name}</p>
               <div>
                 <img style={profileImage} src={friend.url}/>
               </div>
-            <button> Add Friend </button>
+            <button style={addFriendStyle}> Add Friend </button>
           </div>
         )}
     </div>

@@ -11,6 +11,7 @@ function Main(){
     justifyContent: "space-between",
     backgroundColor:' #fff',
     color: '#444',
+    fontFamily: 'Arial, Helvetica, sans-serif'
     }
 
   const box = {
