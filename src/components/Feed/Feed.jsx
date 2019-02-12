@@ -13,9 +13,9 @@ function Feed(props, index){
 }
 
 const mainStyle = {
-  padding:'10px',
+  padding:'15px',
   display: 'grid',
-  gridGap: '2px',
+  gridGap: '2px'
 }
 
 const searchBar = {
@@ -36,16 +36,21 @@ const profileImage = {
   width: '80px',
   borderRadius: '25%',
   float: 'left',
+  marginRight: '8px'
+}
+
+const contentStyle = {
+  gridRow:'1',
+  gridColumn: '2'
 }
 
 const nameStyle = {
-  fontWeight: 'bold'
+  fontWeight: 'bold',
+  paddingBottom: '3px'
 }
 
 const postStyle = {
-  gridRow:'1',
-  gridColumn: '2',
-  border: '1px solid red',
+
 }
 
 
@@ -59,14 +64,15 @@ const Stream = (props) => {
       </div>
 
       {props.posts.map((post, index) =>
-      <div style ={mainStyle}>
-        <div>
-          <img style={profileImage} src={post.url}/>
+        <div style ={mainStyle}>
+          <div>
+            <img style={profileImage} src={post.url}/>
+          </div>
+          <div style={contentStyle}>
+            <div style={nameStyle}>{post.name}</div>
+            <div style={postStyle}>"{post.post}"</div>
+          </div>
         </div>
-        <div style={nameStyle}>{post.name}</div>
-        <div style ={postStyle}>{post.post}</div>
-        <hr/>
-      </div>
       )}
     </div>
   );
