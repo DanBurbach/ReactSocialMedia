@@ -20,12 +20,28 @@ const mainStyle = {
 
 const searchBar = {
   padding: '10px',
-  marginRight: '15px',
+  margin: '15px',
   border: '2px solid #00b5f3',
+  width: '70%',
 }
 
 const searchMenu = {
-  backgroundColor: '#a6d8f1'
+  backgroundColor: '#a6d8f1',
+  display: 'flex',
+  justifyContent: 'flex-end'
+}
+
+const searchImage ={
+  borderRadius: '25%',
+  margin: '10px',
+  height: '50px',
+  width: '45px',
+  background: 'url(https://www.rainforest-alliance.org/sites/default/files/styles/large/public/2016-09/three-toed-sloth-teaser.jpg?itok=_1WeWSnX)',
+  backgroundPosition: 'center',
+  backgroundRepeat: 'no-repeat',
+  border: '2px solid white',
+  backgroundSize: 'cover',
+
 }
 
 const profileImage = {
@@ -60,6 +76,7 @@ const Stream = (props) => {
 
     <div>
       <div style={searchMenu}>
+        <div style={searchImage}/>
         <input style={searchBar} type="text" placeholder="What's happening?" name="search"/>
       </div>
 

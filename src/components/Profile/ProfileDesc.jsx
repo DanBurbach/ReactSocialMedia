@@ -12,7 +12,10 @@ function ProfileDesc(){
 
   return (
     <p style = {ProfileDesc}>
-      Pellentesque pharetra hendrerit congue. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Duis fringilla aliquam scelerisque. Cras euismod tempor velit, vitae facilisis velit maximus vitae. Ut ullamcorper, erat sed accumsan placerat, purus ante scelerisque nisl, vel dignissim nunc risus et tellus. Nunc quis egestas sapien, sagittis vehicula dui. Aenean sed tincidunt magna. Nullam in massa id ipsum iaculis cursus. Curabitur fermentum purus id mi pulvinar dapibus. Nulla ut rhoncus arcu. Nulla in aliquet sapien. Nulla sit amet orci id enim elementum euismod. Curabitur mattis, velit ut sollicitudin porta, diam nulla porta dui, a dapibus elit est auctor purus. Nulla blandit pulvinar aliquet. Morbi sodales sed tellus ut rutrum. Proin iaculis est at sapien varius maximus.
+      Once upon a time, there was a sloth who lived deep in the most luscious jungle in the whole rainforest region of South America. Now as we all know, sloths are one of the slowest animals in the world. They live a life of leisure that involves very little moving or activity.
+      <br/>
+      <br/>
+      This particular sloth was the laziest of all the sloths. So lazy in fact, that he soon ran out of food, with no obvious way of getting more. The sloth was so lazy that rather than going about getting food himself, he instead lay around for hours and hours thinking. He thought and thought until he figured out a way for him to get something to eat, without working too hard.
     </p>
   );
 }

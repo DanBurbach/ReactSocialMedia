@@ -44,7 +44,6 @@ function Header(props){
             <button style={tweetButton}>Tweet</button>
           </div>
       </div>
-      <hr/>
     </div>
 
   );
